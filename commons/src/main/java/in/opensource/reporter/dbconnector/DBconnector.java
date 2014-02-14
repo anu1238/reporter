@@ -44,4 +44,8 @@ public class DBconnector {
 		}
 		return connection;
 	}
+	public static void main(String args[])
+	{
+		DBconnector.getInstance().getConnection();
+	}
 }
